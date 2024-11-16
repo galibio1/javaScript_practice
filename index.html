@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta name="title" content="minimo">
+        <meta name="description" content="Site Description">
+        <meta name="keywords" content="blog">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content=" days">
+        <meta name="author" content="Asadullah Galib">
+        <title>Minimo</title>
+
+        <link rel="icon" type="image/x-icon" href="images/Twiter.png">
+        <!--Font links-->
+        
+        <!--css links-->
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+            <h2>Click the button</h2>
+            <button class="btn btn-info" onclick="changeStyle()">click me</button>
+            <p id="ch"></p>
+            <hr>
+            <!--datte showing-->
+            <h2>Click the button to show the date</h2>
+            <button class="btn btn-info" onclick="ShowDate()">Date</button>
+            <h1 id="d"></h1>
+            <hr>
+            <!--html attribute value-->
+            <h2>Click the button to on/off the bulb</h2>
+            <button class="btn btn-success" onclick="lightOff()">Turn off</button>
+            <button class="btn btn-danger" onclick="lightOn()">Turn on</button>
+            <img id="light" src="images/pic_bulboff.gif" alt="">
+            <hr>
+            <!--Change of style of html element-->
+            <h2>Click the button to show the style</h2>
+            <button class="btn btn-info" onclick="showStyle()">Click me</button>
+            <h1 id="dp">Hy you</h1>
+            <hr>
+            <!--hide HTML elements-->
+            <h2>Click the button to hide the element</h2>
+            <button class="btn btn-info" onclick="hideEle()">Click me</button>
+            <h1 id="dh">I want to hide</h1>
+            <hr>
+            <!--display none-->
+            <h2>Click the button to hide element display</h2>
+            <button class="btn btn-info" onclick="showEle()">Click me</button>
+            <h1 id="ds" class="h">am i showing?</h1>
+            <hr>
+            <!--selector ex-->
+            <h2>Click the button to show by selector</h2>
+            <button class="btn btn-info" onclick="showSel()">Click me</button>
+            <h1 class="s">am i showing?</h1>
+            <h1 class="s">am i showing?</h1>
+            <h1 class="s">am i showing?</h1>
+            <h1 class="s">am i showing?</h1>
+            <h1 class="s">am i showing?</h1>
+            <hr>
+            <!--tag ex-->
+            <h2>Click the button to show by selector</h2>
+            <button class="btn btn-info" onclick="showTag()">Click me</button>
+            <p class="s">am i showing?</p>
+            <p class="s">am i showing?</p>
+            <p class="s">am i showing?</p>
+            <p class="s">am i showing?</p>
+            <p class="s">am i showing?</p>
+            <hr>
+            <!--work in console-->
+            <h2>This will show in the console</h2>
+            <button class="btn btn-info" onclick="showCon()">Click me</button>
+            <h1 id="dc" class="h">am i showing?</h1>
+            <hr>
+            <!--Js statements-->
+            <h2>here is showing the satements</h2>
+            <button class="btn btn-info" onclick="showSt()">Click me</button>
+            <h1 id="s" class="s"></h1>
+            <hr>
+            <!--expression using string-->
+            <h2>expression using string</h2>
+            <button class="btn btn-info" onclick="showStr()">Click me</button>
+            <h1 id="x" class="s"></h1>
+            <hr>
+            <!--JavaScript Objects-->
+            <h2>JavaScript Objects</h2>
+            <button class="btn btn-info" onclick="showOb()">Click me</button>
+            <h1 id="o" class="s"></h1>
+            <hr>
+        </div>
+        
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"></script>  
+    </body>
+</html>
